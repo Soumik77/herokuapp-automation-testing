@@ -1,0 +1,21 @@
+{
+  "name": "herokuapp-automation-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress regression tests for The Internet demonstration application.",
+  "scripts": {
+    "test": "cypress run --browser electron",
+    "test:open": "cypress open",
+    "test:chrome": "cypress run --browser chrome"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "2.2.5",
+    "cypress": "13.12.0",
+    "cypress-mochawesome-reporter": "3.8.2",
+    "cypress-real-events": "1.15.1"
+  }
+}
